@@ -25,12 +25,12 @@ for i in fol:
     bot.follow(i)
 
 
-# fina=[]
+fina=[]
 
-# for i in foll:
-#     fina=bot.get_username_from_user_id(i)
-# for i in foll:
-#     print(i)
+for i in foll:
+    fina=bot.get_username_from_user_id(i)
+for i in foll:
+    print(i)
 
-# for username in args.users:
-#     bot.follow_followers(username)
+for username in args.users:
+    bot.follow_followers(username)
