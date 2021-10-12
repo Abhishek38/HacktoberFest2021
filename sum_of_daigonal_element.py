@@ -7,11 +7,9 @@ def printDiagonalSums(mat, n):
     for i in range(0, n):
         for j in range(0, n):
  
-            # Condition for principal diagonal
             if (i == j):
                 principal += mat[i][j]
  
-            # Condition for secondary diagonal
             if ((i + j) == (n - 1)):
                 secondary += mat[i][j]
          
